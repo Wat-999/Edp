@@ -12,9 +12,9 @@ import pandas as pd
 
 """数据准备"""
 #导入数据
-orders = pd.read_csv('/Users/macbookair/Desktop/数据分析/书本配套资料及电子书/python商业数据分析(零售和电子商务)/《Python商业数据分析：零售和电子商务案例详解》/第五章Python与数字营销案例/data/orders.csv')
-items = pd.read_csv('/Users/macbookair/Desktop/数据分析/书本配套资料及电子书/python商业数据分析(零售和电子商务)/《Python商业数据分析：零售和电子商务案例详解》/第五章Python与数字营销案例/Items_order.csv')
-itemProps = pd.read_csv('/Users/macbookair/Desktop/数据分析/书本配套资料及电子书/python商业数据分析(零售和电子商务)/《Python商业数据分析：零售和电子商务案例详解》/第五章Python与数字营销案例/Items_attribute.csv', encoding='gb2312')
+orders = pd.read_csv('data/orders.csv')
+items = pd.read_csv('Items_order.csv')
+itemProps = pd.read_csv('Items_attribute.csv', encoding='gb2312')
 
 #合并orders和items
 orders_items = pd.merge(orders, items, on="订单编号")
