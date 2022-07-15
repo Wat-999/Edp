@@ -1,4 +1,4 @@
-#[店铺数据运营](https://github.com/Wat-999/sys/tree/main/%E5%BA%97%E9%93%BA%E6%95%B0%E6%8D%AE%E8%BF%90%E8%90%A5)
+# [店铺数据运营](https://github.com/Wat-999/sys/tree/main/%E5%BA%97%E9%93%BA%E6%95%B0%E6%8D%AE%E8%BF%90%E8%90%A5)
 * [竞品调价预警](https://github.com/Wat-999/sys/blob/main/%E5%BA%97%E9%93%BA%E6%95%B0%E6%8D%AE%E8%BF%90%E8%90%A5/%E7%AB%9E%E5%93%81%E8%B0%83%E4%BB%B7%E9%A2%84%E8%AD%A6/%E7%AB%9E%E5%93%81%E8%B0%83%E4%BB%B7%E9%A2%84%E8%AD%A6.py)
 - 项目简介：运营人员想确定可删除替换的词根，删除表现差的词根不会对整体数据带来太大的影响。
 - 作用：找出数据反馈差的词根爬取
