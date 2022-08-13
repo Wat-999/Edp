@@ -151,9 +151,9 @@ table_database = table_database.drop(['F1.38', 'F1.39'], axis=1)
 table_database_inf = table_database.mask(np.isinf, None) #只把元素是np.isinf，全部替换为指定值  mask：显示为假值，替换为真值，戴上面具看到的是假面
 table_database_inf = table_database_inf.fillna(table_database_inf.apply('mean'))
 
-#设为目标 所要划分的样本结果(测试集)
+#提取目标变量
 df_train = table_database_inf['label'].values
-#删除列  所要划分的样本特征集(训练集)
+#提取特征变量
 train = table_database_inf.drop(['label'], axis=1)
 
 # 随机抽取90%的数据作为训练数据，剩余10%作为测试资料
